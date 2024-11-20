@@ -32,7 +32,7 @@ def upload():
         image.show()
 
         # Ensure the save directory exists
-        save_dir = "C:/Users/Urvashi/PycharmProjects/Watermark_app/watermark_images"
+        save_dir = "file path name"
         if not os.path.exists(save_dir):
             os.makedirs(save_dir)
 
